@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+   
+    background-color: rgba(255, 255, 255, 0.925);
+    justify-content: center;
+    box-shadow: 1px 1px 8px grey;
+    z-index: 10;
+    top: 0;
+    position: sticky;
+}
+
+.logsign{
+    display: flex;
+    position: absolute;
+    right: 5px;
+    top: 4vh;
+    font-size: 3vh;
+    justify-content: space-between;
+    width: 15vw;
+}
+.nav a :hover{
+    color: currentColor!important;
+   
+}
+.nav a{
+    text-decoration: none;
+  color: black;
+ 
+  
+}
+.nav li{
+    list-style: none;
+   
+
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 3.5vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   align-items: center;
+   height: 10vh;
+    
+   
+}
+.title1,.title2{
+    display: flex;
+    
+}
+.big{
+   
+     height: 100vh;
+}
+.homeinp{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+.abthome{
+    display: flex;
+}
+.abthome img{
+    width: 30vw;
+    height: 30vh;
+
+}
